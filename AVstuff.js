@@ -23,7 +23,7 @@ document.head.appendChild(googleScopes)
 
 const googleClientID = document.createElement('meta')
 googleClientID.name = 'google-signin-client_id'
-googleClientID.content = CLIENTID + '.apps.googleusercontent.com'
+googleClientID.content = CLIENTID
 document.head.appendChild(googleClientID)
 
 const iphone = document.createElement('meta')
